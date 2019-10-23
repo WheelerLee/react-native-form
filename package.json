@@ -1,9 +1,9 @@
 {
-  "name": "react-native-form",
-  "version": "1.0.0",
+  "name": "@activatortube/react-native-form",
+  "version": "1.0.1",
   "description": "react native form",
-  "main": "./lib/Base.js",
-  "typings": "./lib/Base.d.ts",
+  "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "build": "rm -rf lib; yarn tsc",
     "prepare": "yarn build"
