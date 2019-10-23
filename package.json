@@ -1,0 +1,42 @@
+{
+  "name": "react-native-form",
+  "version": "1.0.0",
+  "description": "react native form",
+  "main": "./lib/Base.js",
+  "typings": "./lib/Base.d.ts",
+  "scripts": {
+    "build": "rm -rf lib; yarn tsc",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WheelerLee/react-native-form.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "form"
+  ],
+  "author": "Wheeler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WheelerLee/react-native-form/issues"
+  },
+  "homepage": "https://github.com/WheelerLee/react-native-form#readme",
+  "files": [
+    "lib"
+  ],
+  "peerDependencies": {
+    "react": "^16.0",
+    "react-native": ">=0.57 <0.60"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.25",
+    "@types/react-native": "^0.60.3"
+  },
+  "devDependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "typescript": "3.5.3"
+  }
+}
